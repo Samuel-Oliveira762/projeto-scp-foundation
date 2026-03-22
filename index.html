@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal tematico inspirado na Fundacao SCP com arquivos, protocolos e cadastro de pesquisadores.">
+  <title>SCP Foundation Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="hero">
+    <nav class="nav">
+      <a class="brand" href="index.html">SCP Archive</a>
+      <div class="nav__links">
+        <a href="#registros">Registros</a>
+        <a href="#classes">Classes</a>
+        <a href="#equipes">Equipes</a>
+        <a href="cadastro.html">Cadastro</a>
+      </div>
+    </nav>
+    <div class="hero__grid">
+      <section class="hero__content panel">
+        <p class="label">Nivel de autorizacao 3</p>
+        <h1>Conter. Proteger. Entender o anomalo.</h1>
+        <p>Um portal conceitual inspirado no universo da Fundacao SCP, com atmosfera de terminal, registros de entidades, classificacoes de risco e protocolos ficticios de operacao.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#registros">Ver registros</a>
+          <a class="button" href="cadastro.html">Cadastrar pesquisador</a>
+        </div>
+      </section>
+      <aside class="status-card panel">
+        <p class="label">Status global</p>
+        <ul class="status-list">
+          <li><strong>42</strong><span>objetos sob monitoramento ativo</span></li>
+          <li><strong>07</strong><span>incidentes em revisao interna</span></li>
+          <li><strong>03</strong><span>setores em protocolo elevado</span></li>
+        </ul>
+        <div class="status-log">
+          <span>[23:04] Setor 12 estabilizado</span>
+          <span>[23:18] Classe Euclid reavaliada</span>
+          <span>[23:41] MTF em prontidao</span>
+        </div>
+      </aside>
+    </div>
+  </header>
+  <main>
+    <section class="section" id="registros">
+      <div class="section__head">
+        <p class="label">Registros prioritarios</p>
+        <h2>Objetos de interesse</h2>
+      </div>
+      <div class="cards cards--three">
+        <article class="card"><p class="card__tag">SCP-173</p><h3>Escultura hostil</h3><p>Entidade agressiva com deslocamento instantaneo quando sem observacao direta.</p><small>Classe: Euclid</small></article>
+        <article class="card"><p class="card__tag">SCP-049</p><h3>Medico da peste</h3><p>Figura humanoide que afirma combater uma enfermidade nao identificada.</p><small>Classe: Euclid</small></article>
+        <article class="card"><p class="card__tag">SCP-682</p><h3>Reptil dificil de destruir</h3><p>Criatura extremamente resistente, inteligente e altamente hostil.</p><small>Classe: Keter</small></article>
+      </div>
+    </section>
+    <section class="section" id="classes">
+      <div class="section__head"><p class="label">Classificacao</p><h2>Classes de contenção</h2></div>
+      <div class="cards cards--four">
+        <article class="mini-card"><h3>Safe</h3><p>Anomalias previsiveis com risco controlado.</p></article>
+        <article class="mini-card"><h3>Euclid</h3><p>Comportamento instavel e necessidade de monitoramento constante.</p></article>
+        <article class="mini-card"><h3>Keter</h3><p>Alta periculosidade e grande dificuldade de contenção.</p></article>
+        <article class="mini-card"><h3>Thaumiel</h3><p>Objetos utilizados pela propria Fundacao contra outras anomalias.</p></article>
+      </div>
+    </section>
+    <section class="section section--split" id="equipes">
+      <article class="panel"><p class="label">Procedimento padrao</p><h2>Fluxo de operação</h2><ol><li>Isolamento inicial do evento anomalo.</li><li>Classificacao de risco e definicao de nivel de acesso.</li><li>Documentacao de sintomas, eventos e variacoes comportamentais.</li><li>Atualizacao dos protocolos apos cada incidente.</li></ol></article>
+      <article class="panel terminal"><p class="label">Equipe destacada</p><h2>MTF Omega-9</h2><pre>Missao: resposta tatica em ambientes confinados
+Janela de prontidao: 04 minutos
+Status: ativo
+Ultima operacao: sucesso parcial sem vazamento externo</pre></article>
+    </section>
+    <section class="section banner"><div><p class="label">Recrutamento interno</p><h2>Deseja ingressar como pesquisador?</h2></div><a class="button button--primary" href="cadastro.html">Ir para cadastro</a></section>
+  </main>
+</body>
+</html>
